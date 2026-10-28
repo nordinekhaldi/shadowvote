@@ -1,0 +1,4 @@
+/* Site : L'urne est morte ! Vive le ShadowVote ! */
+Auteur : Nour-eddine Khaldi
+Site : https://www.shadowvote.fr
+Langue : français
