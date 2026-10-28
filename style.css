@@ -6,7 +6,7 @@
 @font-face{font-family:Inter;font-weight:900;font-display:swap;src:url(/fonts/inter-latin-900-normal.woff2) format("woff2")}
 :root{--jaune:#E8E043;--gris:#B9BEC4;--gris-fonce:#8A9099;--anthracite:#2B2F33;--noir:#111111;--creme:#F7F6EC;--blanc:#fff;--ligne:#dcdbd0;--max:1140px}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html{color-scheme:only light;scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 body{margin:0;font:400 1.0625rem/1.65 Inter,"Helvetica Neue",Arial,sans-serif;color:var(--anthracite);background:var(--creme);overflow-x:clip}
 img,svg{max-width:100%;height:auto;display:block}
@@ -162,3 +162,6 @@ h1,h2,h3{overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
 .tee-photos{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:#ECEBDF;padding:8px}
 .tee-photos figure{margin:0}.tee-photos img{display:block;width:100%;height:auto}
 .tee-photos figcaption{font-size:.75rem;color:#555;margin-top:4px}
+
+/* Les applis (Facebook, Messenger, Instagram) qui forcent le mode sombre ne doivent pas inverser les couleurs du pied de page */
+.pied,.pied-in,.pied-in>div,.pied-bas{background-color:var(--noir)}
