@@ -1,6 +1,7 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [{ "source": "/journal/pourquoi-ce-livre", "destination": "/journal-pourquoi-ce-livre" }],
   "headers": [
     { "source": "/(.*)", "headers": [
       { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
