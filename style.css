@@ -176,3 +176,4 @@ body{overflow-wrap:break-word}
 .etapes{padding-left:0;max-width:100%}.etapes li{box-sizing:border-box;max-width:100%}.etapes li>div{min-width:0}
 @media (max-width:420px){.etapes li{gap:12px;padding:14px}.etapes li>span{width:38px;height:38px;font-size:1.15rem}}
 .menu{flex-wrap:wrap;justify-content:flex-end}
+.tee-photos-1{grid-template-columns:1fr}
