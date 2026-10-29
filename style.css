@@ -180,3 +180,11 @@ body{overflow-wrap:break-word}
 .pied .reseaux{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin-top:14px}
 .pied .reseaux b{width:100%;margin:0}
 .pied .reseaux a{display:inline-block;padding:4px 0;color:#fff;text-decoration:underline;text-decoration-color:var(--jaune)}
+/* Logo : ne jamais passer sous le bouton menu, même avec un grand texte sur téléphone */
+.burger{flex:none}
+.logo{min-width:0;flex:0 1 auto}
+@media (max-width:980px){
+ .logo-sv{font-size:min(1.7rem,7vw)}
+ .logo-txt{font-size:min(.8rem,3.4vw);letter-spacing:min(.2em,.6vw);white-space:nowrap}
+ .logo{overflow:hidden}
+}
