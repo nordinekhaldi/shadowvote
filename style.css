@@ -188,3 +188,6 @@ body{overflow-wrap:break-word}
  .logo-txt{font-size:min(.8rem,3.4vw);letter-spacing:min(.2em,.6vw);white-space:nowrap}
  .logo{overflow:hidden}
 }
+/* Boutique : prix bien visible sous le nom du produit */
+.tee p.prix{display:inline-block;margin:6px 0 8px;padding:2px 12px;background:var(--jaune);color:var(--noir);font-size:1.35rem;font-weight:800;line-height:1.4}
+.tee p.prix small{font-size:.7rem;font-weight:700}
